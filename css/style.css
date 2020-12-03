@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(31, 31, 31);
+}
+nav{
+    background-color: rgba(41, 43, 42, 0.863);
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+}
+.logo{
+    margin-top: -20px;
+}
+.menu{
+    margin-right: 50px;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+.menu ul li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    display: block;
+    
+}
+.menu ul li:hover{
+    background-color: rgb(6, 7, 7);
+    transform: scale(1.2);
+    transition: 0.5s;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+}
+
+
+
+/*Form */
+
+.signUpForm{
+    display: flex;
+    justify-content:space-around;
+    background-image: url("../images/signup.jfif");
+    height: 450px;
+    width: 60%;
+    margin: 50px 250px;
+    text-align: center;
+    color: white;
+    box-shadow: 3px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}
+.info{
+    
+    width: 40%;
+}
+h1,h2{
+    margin-top: 80px;
+}
+.info img{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    position: relative;
+    animation-name: w3code;
+    animation: w3code 10s infinite;
+}
+@keyframes w3code{
+    0%{
+
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.signup{
+    width: 60%;
+    background: rgba(20, 40, 40, 0.8);
+}
+#username,#email,#password{
+    margin: 15px 0;
+    font-size: 16px;
+    padding: 10px;
+    width: 250px;
+    border: 1px solid #0ab4b4;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background: rgba(0, 0, 0, 0.288);
+    color: rgb(255, 255, 255);
+    outline: none;
+}
+#join-btn {
+    border: 1px solid #0ab4b4;
+    background: rgba(20, 20, 20, 0.6);
+    font-size: 18px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 50px;
+    cursor: pointer;
+    transition: .4s;
+  }
+  #join-btn:hover {
+    background: rgba(20, 20, 20, 0.8);
+    padding: 10px 80px;
+  }
+
+  /* footer */ 
+  footer{
+      display: flex;
+      justify-content: space-between;
+      height: 60px;
+      background-color: rgba(12, 13, 14, 0.726);
+  }
+
+  .copyright{
+      color: white;
+      margin-left: 50px;
+      margin-top: 5px;
+  }
+  .social{
+      margin-right: 20px;
+      margin-top: 20px;
+  }
+
