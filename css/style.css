@@ -1,10 +1,10 @@
 body{
     margin: 0;
     padding: 0;
-    background-color: rgb(31, 31, 31);
+    background-color: #080707d2;
 }
 nav{
-    background-color: rgba(41, 43, 42, 0.863);
+    background-color: #2F3C4C;
     display: flex;
     justify-content: space-between;
     height: 90px;
@@ -73,7 +73,7 @@ h1,h2{
 }
 @keyframes w3code{
     0%{
-
+        transform: rotate(0deg);
     }
     100%{
         transform: rotate(360deg);
@@ -130,3 +130,11 @@ h1,h2{
       margin-top: 20px;
   }
 
+.fab{
+    color: white;
+    size: 20px;
+}
+.fab:hover{
+    transform: scale(1.5);
+    transition: .5s;
+}
